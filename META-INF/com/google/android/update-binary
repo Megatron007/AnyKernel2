@@ -38,22 +38,20 @@ bb=/tmp/anykernel/tools/busybox;
 
 ui_print " ";
 ui_print " ";
-ui_print "           ________    ___   _____ __  __  ";
-ui_print "          / ____/ /   /   | / ___// / / /  ";
-ui_print "         / /_  / /   / /| | \__ \/ /_/ /   ";
-ui_print "        / __/ / /___/ ___ |___/ / __  /    ";
-ui_print "       /_/   /_____/_/  |_/____/_/ /_/     ";
-ui_print "      __ __ __________  _   __________     ";
-ui_print "     / //_// ____/ __ \/ | / / ____/ /     ";
-ui_print "    / ,<  / __/ / /_/ /  |/ / __/ / /      ";
-ui_print "   / /| |/ /___/ _, _/ /|  / /___/ /___    ";
-ui_print "  /_/ |_/_____/_/ |_/_/ |_/_____/_____/    "
+ui_print " ._. /\         /\  ._.                    ___.            __           ";
+ui_print " | | \ \       / /  | |   ____   _________ \_ |__ ___.__._/  |_  ____   ";
+ui_print " |_|  \ \     / /   |_| _/ __ \ / ___\__  \ | __ <   |  |\   __\/ __ \  ";
+ui_print " |-|   \ \   / /    |-| \  ___// /_/  > __ \| \_\ \___  | |  | \  ___/  ";
+ui_print " | |    \ \ / /     | |  \___  >___  (____  /___  / ____| |__|  \___  > ";
+ui_print " |_|     \/ \/      |_|      \/_____/     \/    \/\/                \/  "
 ui_print " ";
 ui_print " ";
 
 ui_print "$(file_getprop /tmp/anykernel/anykernel.sh kernel.string)";
 ui_print " ";
 ui_print "AnyKernel2 by osm0sis @ xda-developers";
+ui_print " ";
+ui_print "Hard bricking your bullhead is in progress..";
 ui_print " ";
 mount -o ro /system;
 mount /data;
@@ -111,4 +109,7 @@ umount /system;
 umount /data;
 ui_print " ";
 ui_print "Done!";
+ui_print " ";
+ui_print "Congratulations, Your device has been Hard Bricked HAHAHAHAHA!!";
+ui_print " ";
 

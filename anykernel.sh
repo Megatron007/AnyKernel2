@@ -3,7 +3,7 @@
 
 ## AnyKernel setup
 # EDIFY properties
-kernel.string=Flash Kernel by @nathanchance
+kernel.string=Megabyte Kernel
 do.devicecheck=1
 do.initd=0
 do.modules=0
