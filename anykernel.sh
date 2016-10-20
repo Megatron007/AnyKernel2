@@ -235,7 +235,7 @@ dump_boot;
 # begin ramdisk changes
 
 # init.flash.rc
-insert_line init.bullhead.rc "init.flash.rc" after "import init.bullhead.misc.rc" "import init.flash.rc"
+insert_line init.bullhead.rc "init.megabyte.rc" after "import init.bullhead.misc.rc" "import init.megabyte.rc"
 
 # Add frandom compatibility
 backup_file ueventd.rc;
